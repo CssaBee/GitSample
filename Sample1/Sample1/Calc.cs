@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace Sample1
 {
-    class Calc
+    class Calc : ICalc
     {
-        void Add()
+        public void Add()
         {
         }
 
-        void Div()
-        {
-            
-        }
-
-        void DivB()
+        public void Div()
         {
             
         }
 
+        public void DivB()
+        {
+            
+        }
 
-        void DivD()
+
+        public void DivD()
         {
 
         }
