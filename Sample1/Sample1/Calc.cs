@@ -11,5 +11,10 @@ namespace Sample1
         void Add()
         {
         }
+
+        void Div()
+        {
+            
+        }
     }
 }
